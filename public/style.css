@@ -1,0 +1,155 @@
+body{
+    background-color:ghostwhite ;
+    font-family: 'Caveat Brush';font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("chats.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 800px;
+    max-width: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0,-0,-0,0.1),0  4px 6px -2px rgba(0,-0,-0,0.05);
+    background-image: url("chat4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+   
+}
+.brand h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: 25px;
+}
+.brand{
+    display: flex;
+    max-width: 100%;
+    background: #f1f1f1;
+    
+    align-items: center;
+}
+.chat_section{
+    height: 500px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+    width: 80%;
+    border:none;
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    background: #f8f8f8;
+    
+}
+.message{
+    padding: 19px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    max-width: 300px;
+    position: relative;
+}
+.left_chat{
+    padding: 19px;
+    border-radius: 100%;
+    margin-bottom: 35px;
+    max-width: 200px;
+    position: relative;
+}
+.left_chat h4{
+    position: absolute;
+    top: -20px;
+    left:0;
+    color:#333;
+    font-size: 14px;
+    
+}
+.recieved{
+    background:burlywood;
+    color:white;
+}
+.sending{
+    background: #e9eafd;
+    color: grey;
+    margin-left: auto;
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left:0;
+    color:#333;
+    font-size: 14px;
+}
+#logbox{
+    width: 60%;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 7px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+}
+#logbox:focus{
+border-color: green;
+box-shadow: 0 0 8px 0 green;
+}
+.login_sec{
+    position: relative;
+    margin-left: 20%;
+}
+
+ i{
+    
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+i{
+    color: green   ;
+}
+#lgbtn{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(58, 128, 0);
+    color:white;
+
+}
+#sendbtn{
+    cursor: pointer;
+    font-size: 20px;
+    width: 25%;
+    margin-left: 3%;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: green;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    outline: none;
+    
+    
+}
+#sendbtn:hover{
+    background: #8C82FC;
+    color: #fff;
+  }
+
+.tsc{
+    display: flex;
+    padding: 5px;
+    
+
+}
